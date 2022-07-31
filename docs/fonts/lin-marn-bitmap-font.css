@@ -1,7 +1,7 @@
 @font-face {
     font-family: "lin-marn-bitmap-font";
-    src: url("./lin-marn-bitmap-font.ttf?58a12b5b39259f7436647ca13497030a") format("truetype"),
-url("./lin-marn-bitmap-font.woff?58a12b5b39259f7436647ca13497030a") format("woff");
+    src: url("./lin-marn-bitmap-font.ttf?fd7f27413c60800687d0bef07cd6dee3") format("truetype"),
+url("./lin-marn-bitmap-font.woff?fd7f27413c60800687d0bef07cd6dee3") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -101,6 +101,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-X:before {
     content: "\58";
+}
+.icon-Y:before {
+    content: "\59";
 }
 .icon-Z:before {
     content: "\5a";
