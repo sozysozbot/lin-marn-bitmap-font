@@ -23,20 +23,22 @@ const fantasticon_1 = require("fantasticon");
 const fs = __importStar(require("fs"));
 const fs_extra = __importStar(require("fs-extra"));
 (async function () {
-    const fix_path = process.argv[3] ?? "imgs";
+    const in_path = process.argv[3] ?? "svgs";
     const out_path = process.argv[4] ?? "fonts";
     const glyph_map = {};
-    const files = fs.readdirSync(`${fix_path}/`);
+    const files = fs.readdirSync(`${in_path}/`);
     files.forEach((file, index) => {
         if (file.slice(-4) !== ".svg")
             return;
-        glyph_map[file[0]] = file.charCodeAt(0);
-        const svg_path = `${fix_path}/${file}`;
-        const svg_glyph = fs.readFileSync(svg_path, 'utf-8').replace("0 0 136 120", `0 0 600 ${600 / 136 * 120}`);
-        fs.writeFileSync(svg_path, svg_glyph, 'utf-8');
+        if (file === "_colon.svg") {
+            glyph_map["_colon"] = ":".charCodeAt(0);
+        }
+        else {
+            glyph_map[file[0]] = file.charCodeAt(0);
+        }
     });
     fantasticon_1.generateFonts({
-        inputDir: `./${fix_path}`,
+        inputDir: `./${in_path}`,
         outputDir: `./${out_path}`,
         name: "lin-marn-bitmap-font",
         fontTypes: [fantasticon_1.FontAssetType.TTF, fantasticon_1.FontAssetType.WOFF],
