@@ -1,7 +1,7 @@
 @font-face {
     font-family: "lin-marn-bitmap-font";
-    src: url("./lin-marn-bitmap-font.ttf?fd7f27413c60800687d0bef07cd6dee3") format("truetype"),
-url("./lin-marn-bitmap-font.woff?fd7f27413c60800687d0bef07cd6dee3") format("woff");
+    src: url("./lin-marn-bitmap-font.ttf?bade2ec43683f559c933c11b1092d6ed") format("truetype"),
+url("./lin-marn-bitmap-font.woff?bade2ec43683f559c933c11b1092d6ed") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -44,12 +44,6 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-9:before {
     content: "\39";
-}
-.icon--:before {
-    content: "\2d";
-}
-.icon-.:before {
-    content: "\2e";
 }
 .icon-A:before {
     content: "\41";
@@ -108,20 +102,29 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-Z:before {
     content: "\5a";
 }
-.icon-[:before {
-    content: "\5b";
-}
-.icon-]:before {
-    content: "\5d";
-}
 .icon-_colon:before {
     content: "\3a";
 }
-.icon-{:before {
+.icon-_hyphen:before {
+    content: "\2d";
+}
+.icon-_left_curlybrace:before {
     content: "\7b";
 }
-.icon-}:before {
+.icon-_left_sqbracket:before {
+    content: "\5b";
+}
+.icon-_period:before {
+    content: "\2e";
+}
+.icon-_right_curlybrace:before {
     content: "\7d";
+}
+.icon-_right_sqbracket:before {
+    content: "\5d";
+}
+.icon-_tab:before {
+    content: "\9";
 }
 .icon-㕮:before {
     content: "\356e";
@@ -1370,7 +1373,4 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-龍:before {
     content: "\9f8d";
-}
-.icon-:before {
-    content: "\f101";
 }

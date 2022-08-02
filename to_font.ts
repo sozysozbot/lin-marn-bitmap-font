@@ -10,6 +10,20 @@ import * as fs_extra from 'fs-extra'
     if (file.slice(-4) !== ".svg") return;
     if (file === "_colon.svg") {
       glyph_map["_colon"] = ":".charCodeAt(0);
+    } else if (file === "_hyphen.svg") {
+      glyph_map["_hyphen"] = "-".charCodeAt(0);
+    } else if (file === "_period.svg") {
+      glyph_map["_period"] = ".".charCodeAt(0);
+    } else if (file === "_left_sqbracket.svg") {
+      glyph_map["_left_sqbracket"] = "[".charCodeAt(0);
+    } else if (file === "_right_sqbracket.svg") {
+      glyph_map["_right_sqbracket"] = "]".charCodeAt(0);
+    } else if (file === "_left_curlybrace.svg") {
+      glyph_map["_left_curlybrace"] = "{".charCodeAt(0);
+    } else if (file === "_right_curlybrace.svg") {
+      glyph_map["_right_curlybrace"] = "}".charCodeAt(0);
+    } else if (file === "_tab.svg") {
+      glyph_map["_tab"] = "\t".charCodeAt(0);
     } else {
       glyph_map[file[0]] = file.charCodeAt(0);
     }
