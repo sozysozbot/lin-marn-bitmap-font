@@ -31,8 +31,11 @@ const pngjs = __importStar(require("pngjs"));
             .on("parsed", function () {
             let ans = "";
             const codepoint = file.codePointAt(0);
-            if (codepoint <= 0x7f)
+            if (codepoint < 0x3400)
                 return;
+            if (codepoint > 0xffff) {
+                throw new Error("基本多言語面外の漢字に対応するのをサボっています");
+            }
             let info = `0x${codepoint.toString(16)}`;
             console.log(info);
             ans += info + "\n";

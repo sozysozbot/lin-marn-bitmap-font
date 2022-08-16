@@ -45,4 +45,6 @@ node to_txt.js
 ................
 ```
 
-みたいなのが吐かれる。
+みたいなのが吐かれる。ただし、現状では対応するコードポイントを U+3400～U+FFFF の範囲に絞っている。
+
+これらを生成した後で、`node merge_txts.js` を走らせると、これらが文字コード順にソートされて一つの `linglyph.txt` に収まる。こいつは [改造 MikanOS](https://github.com/sozysozbot/mikanos/tree/hsjoihs/kernel) への入力として使う。
