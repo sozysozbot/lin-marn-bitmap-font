@@ -1,5 +1,4 @@
 import * as fs from 'fs';
-import * as pngjs from 'pngjs';
 (async function () {
 	const in_path = process.argv[3] ?? "txts"
 	const out_path = process.argv[3] ?? "linglyph.txt"
