@@ -1,7 +1,7 @@
 @font-face {
     font-family: "lin-marn-bitmap-font";
-    src: url("./lin-marn-bitmap-font.ttf?bade2ec43683f559c933c11b1092d6ed") format("truetype"),
-url("./lin-marn-bitmap-font.woff?bade2ec43683f559c933c11b1092d6ed") format("woff");
+    src: url("./lin-marn-bitmap-font.ttf?ef7cfe99aa9141618bb755cf5b1a59ea") format("truetype"),
+url("./lin-marn-bitmap-font.woff?ef7cfe99aa9141618bb755cf5b1a59ea") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -474,6 +474,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-如:before {
     content: "\5982";
 }
+.icon-妙:before {
+    content: "\5999";
+}
 .icon-始:before {
     content: "\59cb";
 }
@@ -755,6 +758,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-機:before {
     content: "\6a5f";
+}
+.icon-檸:before {
+    content: "\6ab8";
 }
 .icon-欽:before {
     content: "\6b3d";

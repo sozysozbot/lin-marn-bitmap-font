@@ -1,6 +1,5 @@
 import * as fs from 'fs';
 import * as pngjs from 'pngjs';
-import * as fs_extra from 'fs-extra'
 (async function () {
 	const in_path = process.argv[3] ?? "pngs"
 	const out_path = process.argv[4] ?? "svgs"
