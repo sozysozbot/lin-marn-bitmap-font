@@ -23,12 +23,13 @@ const fs = __importStar(require("fs"));
 const pngjs = __importStar(require("pngjs"));
 (async function () {
     const in_path = process.argv[3] ?? "pngs";
+    const out_path = process.argv[3] ?? "txts";
     const files = fs.readdirSync(`${in_path}/`);
-    let ans = "";
     files.forEach((file, index) => {
         fs.createReadStream(`${in_path}/${file}`)
             .pipe(new pngjs.PNG())
             .on("parsed", function () {
+            let ans = "";
             const codepoint = file.codePointAt(0);
             if (codepoint <= 0x7f)
                 return;
@@ -59,6 +60,7 @@ const pngjs = __importStar(require("pngjs"));
             }
             console.log(`${txt}`);
             ans += txt + "\n";
+            fs.writeFileSync(`${out_path}/${file.slice(0, -4)}.txt`, ans);
         });
     });
 })();

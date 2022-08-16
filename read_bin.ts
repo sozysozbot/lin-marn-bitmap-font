@@ -7,7 +7,6 @@ struct LinMarnGlyph {
 };
 */
 import * as fs from 'fs';
-import * as pngjs from 'pngjs';
 (async function () {
 	const in_path = process.argv[3] ?? "lin_marn.bin"
 	const out_path = process.argv[3] ?? "lin_marn_glyphs.txt"
