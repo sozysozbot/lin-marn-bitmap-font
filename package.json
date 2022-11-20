@@ -4,7 +4,7 @@
   "description": "燐字などを含むビットマップフォント",
   "dependencies": {
     "@types/pngjs": "^6.0.1",
-    "fantasticon": "1.2.3",
+    "fantasticon": "2.0.0",
     "fs-extra": "10.1.0",
     "pack_and_unpack_png_bitmap_glyphs": "^0.1.0",
     "pngjs": "^6.0.0"
