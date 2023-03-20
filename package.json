@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/pngjs": "^6.0.1",
     "fantasticon": "2.0.0",
-    "fs-extra": "11.1.0",
+    "fs-extra": "11.1.1",
     "pack_and_unpack_png_bitmap_glyphs": "^0.1.0",
     "pngjs": "^7.0.0"
   },
