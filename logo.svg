@@ -37,7 +37,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-123.592,-91.20121)"><g
+     transform="translate(-123.592,-91.20121)"><rect
+       style="fill:#ffffff;fill-opacity:0.780392;stroke-width:1;stroke-linecap:round"
+       id="rect1056"
+       width="34.524529"
+       height="38.932076"
+       x="123.592"
+       y="91.20121" /><g
        id="g338"
        transform="matrix(0.99844149,0,0,0.99842766,143.13879,89.204355)"><rect
          width="1"
