@@ -1,5 +1,7 @@
 # lin-marn-bitmap-font【網墨倉字】
 
+![](logo.svg)
+
 [燐字リポジトリ](https://github.com/jurliyuuri/lin-marn)にあるビットマップフォントをコンパイルするための仕組み。`pngs` にビットマップを入れる。
 
 ## ttf / woff の出力
