@@ -1,7 +1,7 @@
 @font-face {
     font-family: "lin-marn-bitmap-font";
-    src: url("./lin-marn-bitmap-font.ttf?ef7cfe99aa9141618bb755cf5b1a59ea") format("truetype"),
-url("./lin-marn-bitmap-font.woff?ef7cfe99aa9141618bb755cf5b1a59ea") format("woff");
+    src: url("./lin-marn-bitmap-font.ttf?5934e36608ce3922d69df74cf453a558") format("truetype"),
+url("./lin-marn-bitmap-font.woff?5934e36608ce3922d69df74cf453a558") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -135,6 +135,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-七:before {
     content: "\4e03";
 }
+.icon-万:before {
+    content: "\4e07";
+}
 .icon-三:before {
     content: "\4e09";
 }
@@ -158,6 +161,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-九:before {
     content: "\4e5d";
+}
+.icon-乾:before {
+    content: "\4e7e";
 }
 .icon-二:before {
     content: "\4e8c";
@@ -371,6 +377,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-吏:before {
     content: "\540f";
+}
+.icon-呉:before {
+    content: "\5449";
 }
 .icon-周:before {
     content: "\5468";
@@ -591,6 +600,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-彼:before {
     content: "\5f7c";
 }
+.icon-待:before {
+    content: "\5f85";
+}
 .icon-律:before {
     content: "\5f8b";
 }
@@ -650,6 +662,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-挽:before {
     content: "\633d";
+}
+.icon-搾:before {
+    content: "\643e";
 }
 .icon-撃:before {
     content: "\6483";
@@ -819,6 +834,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-海:before {
     content: "\6d77";
 }
+.icon-涙:before {
+    content: "\6d99";
+}
 .icon-淮:before {
     content: "\6dee";
 }
@@ -830,6 +848,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-清:before {
     content: "\6e05";
+}
+.icon-湿:before {
+    content: "\6e7f";
 }
 .icon-満:before {
     content: "\6e80";
@@ -986,6 +1007,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-穴:before {
     content: "\7a74";
+}
+.icon-窄:before {
+    content: "\7a84";
 }
 .icon-立:before {
     content: "\7acb";
@@ -1326,6 +1350,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-静:before {
     content: "\9759";
 }
+.icon-順:before {
+    content: "\9806";
+}
 .icon-須:before {
     content: "\9808";
 }
@@ -1370,6 +1397,9 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 }
 .icon-麗:before {
     content: "\9e97";
+}
+.icon-黍:before {
+    content: "\9ecd";
 }
 .icon-黒:before {
     content: "\9ed2";
