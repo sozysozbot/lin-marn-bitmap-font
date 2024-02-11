@@ -1,7 +1,11 @@
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -19,7 +23,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const fantasticon_1 = require("fantasticon");
+const fantasticon_1 = require("@twbs/fantasticon");
 const fs = __importStar(require("fs"));
 const fs_extra = __importStar(require("fs-extra"));
 (async function () {
@@ -58,7 +62,7 @@ const fs_extra = __importStar(require("fs-extra"));
             glyph_map[file[0]] = file.charCodeAt(0);
         }
     });
-    fantasticon_1.generateFonts({
+    (0, fantasticon_1.generateFonts)({
         inputDir: `./${in_path}`,
         outputDir: `./${out_path}`,
         name: "lin-marn-bitmap-font",
@@ -67,6 +71,7 @@ const fs_extra = __importStar(require("fs-extra"));
             fantasticon_1.OtherAssetType.CSS,
             fantasticon_1.OtherAssetType.HTML,
             fantasticon_1.OtherAssetType.JSON,
+            /* OtherAssetType.TS */ // The TS asset is buggy; remove
         ],
         fontHeight: 480,
         codepoints: glyph_map
