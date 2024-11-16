@@ -1,8 +1,8 @@
 @font-face {
   font-display: block;
   font-family: "lin-marn-bitmap-font";
-  src: url("./lin-marn-bitmap-font.ttf?832a460f1bf8f57623b82368fbd24432") format("truetype"),
-url("./lin-marn-bitmap-font.woff?832a460f1bf8f57623b82368fbd24432") format("woff");
+  src: url("./lin-marn-bitmap-font.ttf?e23e73f85f7aba45dcc9b532aae01ce9") format("truetype"),
+url("./lin-marn-bitmap-font.woff?e23e73f85f7aba45dcc9b532aae01ce9") format("woff");
 }
 
 i[class^="icon-"]::before, i[class*=" icon-"]::before {
@@ -793,6 +793,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-械::before {
   content: "\68b0";
 }
+.icon-棆::before {
+  content: "\68c6";
+}
 .icon-棉::before {
   content: "\68c9";
 }
@@ -843,6 +846,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-歪::before {
   content: "\6b6a";
+}
+.icon-残::before {
+  content: "\6b8b";
 }
 .icon-母::before {
   content: "\6bcd";
@@ -1018,6 +1024,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-直::before {
   content: "\76f4";
 }
+.icon-眉::before {
+  content: "\7709";
+}
 .icon-真::before {
   content: "\771f";
 }
@@ -1035,6 +1044,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-硬::before {
   content: "\786c";
+}
+.icon-磨::before {
+  content: "\78e8";
 }
 .icon-祖::before {
   content: "\7956";
@@ -1294,6 +1306,12 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 .icon-豊::before {
   content: "\8c4a";
 }
+.icon-豕::before {
+  content: "\8c55";
+}
+.icon-豚::before {
+  content: "\8c5a";
+}
 .icon-貓::before {
   content: "\8c93";
 }
@@ -1365,6 +1383,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-連::before {
   content: "\9023";
+}
+.icon-遅::before {
+  content: "\9045";
 }
 .icon-遊::before {
   content: "\904a";
@@ -1509,6 +1530,9 @@ i[class^="icon-"]::before, i[class*=" icon-"]::before {
 }
 .icon-麗::before {
   content: "\9e97";
+}
+.icon-麦::before {
+  content: "\9ea6";
 }
 .icon-麺::before {
   content: "\9eba";
