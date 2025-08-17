@@ -2,7 +2,7 @@
 
 ![](logo.svg)
 
-[燐字リポジトリ](https://github.com/jurliyuuri/lin-marn)にあるビットマップフォントをコンパイルするための仕組み。`pngs` にビットマップを入れる。
+[燐字リポジトリ](https://github.com/jurliyuuri/lin-marn)にあるビットマップフォントをコンパイルするための仕組み。**`pngs` にビットマップを手動で入れる**。
 
 ## ttf / woff の出力
 WOFF にはビットマップフォントを扱う仕組みがないので、それぞれのドットを SVG の正方形へと変換する必要がある。ということで
